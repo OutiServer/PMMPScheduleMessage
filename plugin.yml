@@ -1,0 +1,7 @@
+name: ScheduleMessage
+description: 定期的にメッセージを送信するプラグイン
+author: Ken_Cir
+version: 1.0.0
+api: 4.0.0
+main: outiserver\schedulemessage\ScheduleMessage
+src-namespace-prefix: outiserver\schedulemessage
