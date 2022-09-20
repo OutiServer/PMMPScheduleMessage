@@ -1,3 +1,3 @@
 # PMMPScheduleMessage
 
-定期的に指定したメッセージを投稿するプラグイン
+Plugin to periodically post specified messages

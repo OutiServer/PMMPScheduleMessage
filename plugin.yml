@@ -1,5 +1,5 @@
 name: ScheduleMessage
-description: 定期的にメッセージを送信するプラグイン
+description: Plugin to periodically post specified messages
 author: Ken_Cir
 version: 1.0.0
 api: 4.0.0

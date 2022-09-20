@@ -26,7 +26,7 @@ class ScheduleMessageTask extends Task
         if (count($this->messages) < 1) return;
         elseif (count($this->messages) < ($this->next + 1)) $this->next = 0;
 
-        Server::getInstance()->broadcastMessage("§a[システム][定期] {$this->messages[$this->next]}");
+        Server::getInstance()->broadcastMessage($this->messages[$this->next]);
         $this->next++;
     }
 }
